@@ -1,0 +1,297 @@
+/* RESETEO GENERAL*/
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS */
+.description{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.product-name{
+    font-size: 1.2rem;
+    color: #2C3639;
+}
+
+.price{
+    font-size: 2rem;
+    color: red;
+}
+
+
+.shop{
+    background-color: #80777744;
+    color: black;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    box-shadow: rgb(66, 70, 66);
+    border-radius: 5px;
+    font-weight: bold;
+    max-width: 130px;
+    min-width: 80px;
+}
+
+.shop:hover{
+    background-color: black;
+    color: white;
+}
+
+.paddingCard{
+    padding-top: 1rem;
+}
+
+
+.marginTitle{
+    margin-left: 0.5rem;
+}
+
+.shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+}
+
+
+/* NAVBAR */
+.cursive{
+    font-family: 'The Nautigal', cursive;
+    font-size: 3rem;
+    text-decoration: none;
+}
+.carritonv:hover{
+    color: greenyellow;
+
+}
+
+.navmb{
+    margin-bottom: 7rem;
+}
+
+.logo {
+    padding: 0px 40px;
+    border-radius: 50%;
+    margin: 0 80px;
+}
+
+
+.fixedmenu{
+    top: 0;
+    left: 0;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: 1002;
+}
+
+.colornf {
+background-color: black;
+}
+
+.bordenv {
+    border-radius: 10rem;
+    text-align: center;
+}
+.paddnav {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.navtransition {
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    color: white;
+    text-decoration: none;
+}
+
+.navtransition:hover {
+    text-decoration: underline;
+}
+
+#button-up {
+    width: 45px;
+    height: 45px;
+    background: red;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+}
+
+#button-up:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+
+/*--SECCION BIENVENIDA--*/
+.title-burger{
+    background-color: black;
+    color: white;
+}
+
+
+.btn-yellow{
+    color: white;
+    font-family:'Praktika Rounded';
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 7rem;
+}
+.slide-item{
+    font: 8rem;
+    font-family: 'Secular One';
+    font-weight: 800;
+    line-height: .9;
+}
+
+/*FORMULARIO*/
+
+
+form .grupo{
+    position: relative;
+    margin: 45px;
+}
+
+.inputform{
+    background-color: none;
+    color: #9b9b9b;
+    font-size: 18px;
+    padding: 5px 5px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #9b9b9b;
+}
+
+.inputform:focus{
+    outline: none;
+    color: black;
+}
+
+
+.buttonsForm{
+    margin-left: 3rem;
+}
+
+.buttonRecordar{
+    margin-bottom: 1rem;
+}
+
+
+.labelForm{
+    color: #9b9b9b;
+    font-size: 16px;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+}
+
+
+.inputform:focus~label,
+.inputform:valid~label{
+    top: -14px;
+    font-size: 14px;
+    color: black;
+}
+
+.buttonConfirmar{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.buttonConfirmar:hover{
+    background-color: #EB1D36;
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+
+/* footer */
+
+.circle-msg{
+    height: 45px;
+    width: 47px;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-msg span{
+    color: #fff;
+    font-size: 25px;
+}
+
+.pt-1, py-1{
+    padding-top: 0.25rem !important;
+}
+
+.escribinos span{
+    color: #fff;
+    font-size: 25px;
+}
+
+.mr-4, .mx4{
+    margin-right: 1.5rem !important;
+}
+
+footer{
+    background-color: #211f1b;
+}
+
+.escribinos a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.circle-msg:hover{
+    background-color: #80777744;
+}
